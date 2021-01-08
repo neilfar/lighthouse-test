@@ -11,7 +11,7 @@ module.exports = {
     },
     collect: {
       numberOfRuns: 1,
-      staticDistDir: '../sites/gatsby/public/',
+      staticDistDir: '.public',
       maxAutodiscoverUrls: 0,
     },
   },
