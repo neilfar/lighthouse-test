@@ -6,7 +6,7 @@ module.exports = {
         'categories:performance': ['off'],
         'categories:accessibility': ['off'],
         'categories:best-practices': ['off', { minScore: 0.75 }],
-        'categories:seo': ['error', { minScore: 0.9 }],
+        'categories:seo': ['warn', { minScore: 0.9 }],
       },
     },
     collect: {
